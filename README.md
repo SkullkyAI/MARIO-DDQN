@@ -29,25 +29,4 @@ To use the agent, you can create an instance of the agent with your desired hype
 - `batch_size`: The size of the batches sampled from the replay buffer to update the networks.
 - `sync_network_rate`: The number of steps that should pass before the target network is updated to match the main network.
 
-## Requirements
 
-This project requires Python 3.6 or later, as well as the following Python libraries:
-
-- NumPy
-- PyTorch
-
-## Installation
-
-To install the required libraries, you can use pip:
-
-```bash
-pip install numpy torch
-```
-
-## Contributing
-
-Contributions are welcome! Please read the contributing guidelines before making any changes.
-
-## License
-
-This project is licensed under the terms of the MIT license.
